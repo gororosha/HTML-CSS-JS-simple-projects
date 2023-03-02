@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body{
+    background: #1877F2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Space Mono', monospace;
+}
+
+.quiz-container{
+    background-color:white;
+    width: 500px;
+    max-width:100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-headder{
+    padding: 2rem;
+}
+
+button{
+    background-color: #00AB66;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    padding: 1rem;
+}
+
+button:hover{
+    background-color: #117b51;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 0 1rem;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+}
